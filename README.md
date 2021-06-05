@@ -18,14 +18,14 @@ npm start
 
 ## Captures
 
-Home Page
+Home Section
 
 ![Photos](src/images/fotos/Preview0.JPG)
 
-Folders Page
+Pricing Section
 
 ![Photos](src/images/fotos/Preview1.JPG)
 
-Task Manager
+About Section
 
 ![Photos](src/images/fotos/Preview2.JPG)
