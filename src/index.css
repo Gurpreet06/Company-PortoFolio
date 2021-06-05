@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: auto;
+  background-color: #fff;
+}
+
+.auto-center {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.middle-ware {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name {
+  font-size: 36px;
+  color: #06065b;
+}
+
+.paragrah {
+  color: grey;
+  font-size: 14px;
+}
+
+.mid-btn {
+  height: 45px;
+  font-size: 14px;
+  padding: 1px 22px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background: #06065b;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.mid-btn > ion-icon {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+}
+
+.services {
+  display: flex;
+  margin-top: 30px;
+}
+
+.servicesV1 {
+  display: flex;
+  align-items: center;
+}
+
+.servicesV1 > div {
+  padding: 20px;
+}
+
+.servicesV2 > div > h5 {
+  margin-bottom: -11px;
+}
+
+.servicesV2 > div > p {
+  font-size: 13px;
+}
+
+ion-icon {
+  height: 41px;
+  padding: 1px 22px;
+  border-radius: 60px;
+  border: 1px solid #ccc;
+}
+
+.wrapper {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.side-info {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 30px;
+  background-image: linear-gradient(#ffbeb4, #8183d2);
+  border-radius: 11px;
+  margin-right: 25px;
+  border: none;
+  margin-top: 25px;
+}
+
+.offerText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+}
+
+.offerP {
+  font-size: 19px;
+  color: grey;
+  margin-bottom: 7px;
+  margin-top: -6px;
+  text-align: center;
+}
+
+.repairOf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.repairOffer {
+  border: 1px solid rgb(80 80 80 / 40%);
+  background-color: rgb(255, 255, 255);
+  background: white;
+  max-width: 33%;
+  margin-top: 25px;
+}
+
+.flexText {
+  color: #06065b;
+  text-decoration: none;
+}
+
+.NamePrice {
+  border-bottom: 1px solid rgb(69, 69, 80);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coldif {
+  background-image: linear-gradient(#0b0b7d, #ef7461);
+  border: none;
+}
+
+.ofertasRepair {
+  font-size: 15px;
+  line-height: 1.86;
+  margin-bottom: 15px;
+}
+
+.fotosImg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .repairOffer {
+    max-width: 92%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+
+  .wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+.packs {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.packs-div {
+  border: 1px solid grey;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  margin-right: 25px;
+}
+
+.aboutv1 {
+  text-align: center;
+}
+
+.aboutv1P {
+  font-size: 16px;
+  line-height: 1.75rem;
+  color: grey;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutv1BlueLine {
+  border-bottom: 4px solid #667eea;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.aboutv1H2 {
+  letter-spacing: 0.05em;
+  font-size: 0.975rem;
+  font-weight: 600;
+  margin-bottom: -5px;
+}
+
+.aboutv1P2 {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .paragrah {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+
+  .middle-ware {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .middleImg > img {
+    margin-top: 30px;
+  }
+
+  .services {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .packs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .packs-div {
+    max-width: 90%;
+    margin-bottom: 25px;
+    margin-right: 0;
+  }
+
+  .offerText > h2 {
+    text-align: center;
+  }
+
+  .offerP {
+    max-width: 92%;
+    margin: auto;
+    text-align: center;
+  }
+}
