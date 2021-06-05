@@ -1,5 +1,5 @@
 ## Company PortoFolio
-This is a web-page application portfolio for companies, which is built with with React.js. where we have different section for every category.
+This is a web-page application is a portfolio for companies, which is built with with React.js. where we have different section for every category.
 
 # Important!
 
