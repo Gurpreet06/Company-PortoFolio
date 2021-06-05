@@ -22,7 +22,7 @@ Home Section
 
 ![Photos](src/images/fotos/Preview0.JPG)
 
-Pricing Section
+Offer Section
 
 ![Photos](src/images/fotos/Preview1.JPG)
 
