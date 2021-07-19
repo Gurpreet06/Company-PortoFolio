@@ -1,6 +1,6 @@
 ## Company PortoFolio
 
-Company PortoFolio is a template built with React.js, where we have different section for every category and it's also compatible with every mobile phone.
+Company PortoFolio is a template created with React.js, where we have different section for every category and it's also compatible with every mobile phone.
 
 # Important!
 
